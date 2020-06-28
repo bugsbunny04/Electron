@@ -17,7 +17,7 @@ function createWindow() {
         webPreferences: {
             nativeWindowOpen: true,
             nodeIntegration: true
-        },
+        }
     });   
     win.loadURL(url.format({
         pathname: path.join(__dirname,'index.html'),
